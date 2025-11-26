@@ -7,9 +7,11 @@
   to = "/index.html"
   status = 200
 
-[context.production.environment]
-  VITE_EMAILJS_PUBLIC_KEY = ""
-  VITE_EMAILJS_SERVICE_ID = ""
-  VITE_EMAILJS_TEMPLATE_ID = ""
-  VITE_EMAILJS_CONTACT_TEMPLATE_ID = ""
-  GEMINI_API_KEY = ""
+# NOTE: Environment variables are set via Netlify UI
+# Do NOT set them here as empty values - they will override the UI settings
+# Set the following in Netlify Dashboard > Site settings > Build & deploy > Environment:
+# - VITE_GEMINI_API_KEY
+# - VITE_EMAILJS_PUBLIC_KEY
+# - VITE_EMAILJS_SERVICE_ID
+# - VITE_EMAILJS_TEMPLATE_ID
+# - VITE_EMAILJS_CONTACT_TEMPLATE_ID

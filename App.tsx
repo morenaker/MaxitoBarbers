@@ -224,7 +224,7 @@ const App: React.FC = () => {
                 {/* Fotka 4 */}
                 <div className="relative aspect-[3/4] group overflow-hidden rounded-xl cursor-pointer">
                     <img 
-                        src="/public/photo/modeld4.jpg"
+                        src="/photo/modeld4.jpg"
                         alt="Proměna 4"
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
                     />

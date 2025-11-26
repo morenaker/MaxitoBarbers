@@ -51,7 +51,7 @@ export const Hero: React.FC = () => {
                  <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-primary-50 rounded-full -z-10"></div>
                  
                  <img 
-                    src="/photo/photo_cover.jpg" 
+                    src="/public/photo/photo_cover.jpg" 
                     alt="Maxim Schejbal Hair System"
                     className="w-full h-full object-cover rounded-2xl shadow-2xl"
                  />

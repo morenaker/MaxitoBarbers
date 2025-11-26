@@ -7,7 +7,7 @@ export const VARIANTS: Variant[] = [
     description: 'Nejrealističtější varianta na trhu. Membrána je tak tenká, že splyne s pokožkou a je na dotek neznatelná. Ideální pro ty, kteří chtějí odhalené čelo.',
     durability: '2-3 měsíce',
     realism: 'Extrémní',
-    image: 'photo/model1.jpg'
+    image: '/public/photo/model1.jpg'
   },
   {
     id: 'lace',
@@ -15,7 +15,7 @@ export const VARIANTS: Variant[] = [
     description: 'Perfektní prodyšnost. Ideální pro sportovce a aktivní životní styl. Uzlíky jsou bělené pro neviditelný vzhled.',
     durability: '3-4 měsíce',
     realism: 'Vysoká',
-    image: 'photo/model2.jpg'
+    image: '/public/photo/model2.jpg'
   },
   {
     id: 'mono',
@@ -23,7 +23,7 @@ export const VARIANTS: Variant[] = [
     description: 'Kombinace odolnosti a přirozenosti. Střed tvoří odolná síťovina, okraje jsou z polyuretanu pro snadné lepení a čištění.',
     durability: '6+ měsíců',
     realism: 'Střední',
-    image: 'photo/model3.jpg'
+    image: '/public/photo/model3.jpg'
   }
 ];
 

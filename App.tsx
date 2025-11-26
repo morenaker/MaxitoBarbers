@@ -185,7 +185,7 @@ const App: React.FC = () => {
                 {/* Fotka 1 */}
                 <div className="relative aspect-[3/4] group overflow-hidden rounded-xl cursor-pointer">
                     <img 
-                        src="/public/photo/modeld1.jpg"
+                        src="/photo/modeld1.jpg"
                         alt="Proměna 1"
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
                     />
@@ -198,7 +198,7 @@ const App: React.FC = () => {
                 {/* Fotka 2 */}
                 <div className="relative aspect-[3/4] group overflow-hidden rounded-xl cursor-pointer">
                     <img 
-                        src="/public/photo/modeld2.jpg"
+                        src="/photo/modeld2.jpg"
                         alt="Proměna 2"
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
                     />
@@ -211,7 +211,7 @@ const App: React.FC = () => {
                 {/* Fotka 3 */}
                 <div className="relative aspect-[3/4] group overflow-hidden rounded-xl cursor-pointer">
                     <img 
-                        src="/public/photo/modeld3.jpg"
+                        src="/photo/modeld3.jpg"
                         alt="Proměna 3"
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
                     />
